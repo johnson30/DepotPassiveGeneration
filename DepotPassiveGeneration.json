@@ -6,7 +6,7 @@
       "chanceToProduce": 1,
       "produces": [
         {
-          "intervalSeconds": 240,
+          "intervalSeconds": 360,
           "itemSelectMode": 0,
           "items": [
             {
@@ -394,6 +394,183 @@
               "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Wool.PrimalItemResource_Wool",
               "maxQuantityPerCycle": 0,
               "maxQuantityInTerminal": 0,
+              "quantityPerDino": 1,
+              "alternateSelectMode": 0,
+              "alternateItemsChance": 0,
+              "alternateItems": [],
+              "comsumesSelectMode": 0,
+              "consumesItemsChance": 0,
+              "consumesItems": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dinoType": "Blueprint'/Game/ScorchedEarth/Dinos/Moth/Moth_Character_BP.Moth_Character_BP",
+      "chanceToProduce": 1,
+      "produces": [
+        {
+          "intervalSeconds": 360,
+          "itemSelectMode": 0,
+          "items": [
+            {
+              "bpPath": "/Game/ScorchedEarth/CoreBlueprints/Resources/PrimalItemResource_Silk.PrimalItemResource_Silk",
+              "maxQuantityPerCycle": 0,
+              "maxQuantityInTerminal": 0,
+              "quantityPerDino": 1,
+              "alternateSelectMode": 0,
+              "alternateItemsChance": 0,
+              "alternateItems": [],
+              "comsumesSelectMode": 0,
+              "consumesItemsChance": 0,
+              "consumesItems": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dinoType": "/Game/PrimalEarth/Dinos/Scorpion/Scorpion_Character_BP.Scorpion_Character_BP",
+      "chanceToProduce": 1,
+      "produces": [
+        {
+          "intervalSeconds": 360,
+          "itemSelectMode": 0,
+          "items": [
+            {
+              "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Narcotic.PrimalItemConsumable_Narcotic",
+              "maxQuantityPerCycle": 0,
+              "maxQuantityInTerminal": 0,
+              "quantityPerDino": 1,
+              "alternateSelectMode": 0,
+              "alternateItemsChance": 0.1,
+              "alternateItems": [
+                {
+                  "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_JellyVenom.PrimalItemConsumable_JellyVenom",
+                  "quantityPerItem": 1,
+                  "maxQuantityPerCycle": 0,
+                  "maxQuantityInTerminal": 0
+                }
+              ],
+              "comsumesSelectMode": 0,
+              "consumesItemsChance": 0,
+              "consumesItems": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dinoType": "/Game/PrimalEarth/Dinos/Anglerfish/Angler_Character_BP.Angler_Character_BP",
+      "chanceToProduce": 1,
+      "produces": [
+        {
+          "intervalSeconds": 360,
+          "itemSelectMode": 0,
+          "items": [
+            {
+              "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_AnglerGel.PrimalItemResource_AnglerGel",
+              "maxQuantityPerCycle": 0,
+              "maxQuantityInTerminal": 0,
+              "quantityPerDino": 1,
+              "alternateSelectMode": 0,
+              "alternateItemsChance": 0.1,
+              "alternateItems": [
+                {
+                  "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Silicon.PrimalItemResource_Silicon",
+                  "quantityPerItem": 1,
+                  "maxQuantityPerCycle": 0,
+                  "maxQuantityInTerminal": 0
+                }
+              ],
+              "comsumesSelectMode": 0,
+              "consumesItemsChance": 0,
+              "consumesItems": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dinoType": "/Game/PrimalEarth/Dinos/Anglerfish/Angler_Character_BP_Aberrant.Angler_Character_BP_Aberrant",
+      "chanceToProduce": 1,
+      "produces": [
+        {
+          "intervalSeconds": 360,
+          "itemSelectMode": 0,
+          "items": [
+            {
+              "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_AnglerGel.PrimalItemResource_AnglerGel",
+              "maxQuantityPerCycle": 0,
+              "maxQuantityInTerminal": 0,
+              "quantityPerDino": 1,
+              "alternateSelectMode": 0,
+              "alternateItemsChance": 0.1,
+              "alternateItems": [
+                {
+                  "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Silicon.PrimalItemResource_Silicon",
+                  "quantityPerItem": 1,
+                  "maxQuantityPerCycle": 0,
+                  "maxQuantityInTerminal": 0
+                }
+              ],
+              "comsumesSelectMode": 0,
+              "consumesItemsChance": 0,
+              "consumesItems": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dinoType": "/Game/PrimalEarth/Dinos/Iguanodon/Iguanodon_Character_BP.Iguanodon_Character_BP",
+      "chanceToProduce": 1,
+      "produces": [
+        {
+          "intervalSeconds": 360,
+          "itemSelectMode": 0,
+          "items": [
+            {
+              "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Citronal.PrimalItemConsumable_Seed_Citronal",
+              "maxQuantityPerCycle": 0,
+              "maxQuantityInTerminal": 500,
+              "quantityPerDino": 1,
+              "alternateSelectMode": 0,
+              "alternateItemsChance": 0,
+              "alternateItems": [],
+              "comsumesSelectMode": 0,
+              "consumesItemsChance": 0,
+              "consumesItems": []
+            },
+            {
+              "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Longrass.PrimalItemConsumable_Seed_Longrass",
+              "maxQuantityPerCycle": 0,
+              "maxQuantityInTerminal": 500,
+              "quantityPerDino": 1,
+              "alternateSelectMode": 0,
+              "alternateItemsChance": 0,
+              "alternateItems": [],
+              "comsumesSelectMode": 0,
+              "consumesItemsChance": 0,
+              "consumesItems": []
+            },
+            {
+              "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Rockarrot.PrimalItemConsumable_Seed_Rockarrot",
+              "maxQuantityPerCycle": 0,
+              "maxQuantityInTerminal": 500,
+              "quantityPerDino": 1,
+              "alternateSelectMode": 0,
+              "alternateItemsChance": 0,
+              "alternateItems": [],
+              "comsumesSelectMode": 0,
+              "consumesItemsChance": 0,
+              "consumesItems": []
+            },
+            {
+              "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Savoroot.PrimalItemConsumable_Seed_Savoroot",
+              "maxQuantityPerCycle": 0,
+              "maxQuantityInTerminal": 500,
               "quantityPerDino": 1,
               "alternateSelectMode": 0,
               "alternateItemsChance": 0,
