@@ -6,13 +6,13 @@
       "chanceToProduce": 1,
       "produces": [
         {
-          "intervalSeconds": 360,
+          "intervalSeconds": 900,
           "itemSelectMode": 0,
           "items": [
             {
               "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Silicon.PrimalItemResource_Silicon",
               "maxQuantityPerCycle": 0,
-              "maxQuantityInTerminal": 0,
+              "maxQuantityInTerminal": 5000,
               "quantityPerDino": 1,
               "alternateSelectMode": 0,
               "alternateItemsChance": 0.1,
@@ -21,7 +21,7 @@
                   "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_BlackPearl.PrimalItemResource_BlackPearl",
                   "quantityPerItem": 1,
                   "maxQuantityPerCycle": 0,
-                  "maxQuantityInTerminal": 0
+                  "maxQuantityInTerminal": 1000
                 }
               ],
               "comsumesSelectMode": 0,
@@ -43,7 +43,7 @@
             {
               "bpPath": "/Game/PrimalEarth/Dinos/Achatina/PrimalItemResource_SnailPaste.PrimalItemResource_SnailPaste",
               "maxQuantityPerCycle": 0,
-              "maxQuantityInTerminal": 0,
+              "maxQuantityInTerminal": 5000,
               "quantityPerDino": 1,
               "alternateSelectMode": 0,
               "alternateItemsChance": 0,
@@ -61,7 +61,7 @@
             {
               "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Polymer_Organic.PrimalItemResource_Polymer_Organic",
               "maxQuantityPerCycle": 0,
-              "maxQuantityInTerminal": 0,
+              "maxQuantityInTerminal": 1000,
               "quantityPerDino": 1,
               "alternateSelectMode": 0,
               "alternateItemsChance": 0,
@@ -85,7 +85,7 @@
             {
               "bpPath": "/Game/PrimalEarth/Dinos/Achatina/PrimalItemResource_SnailPaste.PrimalItemResource_SnailPaste",
               "maxQuantityPerCycle": 0,
-              "maxQuantityInTerminal": 0,
+              "maxQuantityInTerminal": 5000,
               "quantityPerDino": 1,
               "alternateSelectMode": 0,
               "alternateItemsChance": 0,
@@ -103,7 +103,7 @@
             {
               "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Polymer_Organic.PrimalItemResource_Polymer_Organic",
               "maxQuantityPerCycle": 0,
-              "maxQuantityInTerminal": 0,
+              "maxQuantityInTerminal": 1000,
               "quantityPerDino": 1,
               "alternateSelectMode": 0,
               "alternateItemsChance": 0,
@@ -127,7 +127,7 @@
             {
               "bpPath": "/Game/PrimalEarth/Dinos/Tusoteuthis/PrimalItemResource_SquidOil.PrimalItemResource_SquidOil",
               "maxQuantityPerCycle": 0,
-              "maxQuantityInTerminal": 0,
+              "maxQuantityInTerminal": 1000,
               "quantityPerDino": 1,
               "alternateSelectMode": 0,
               "alternateItemsChance": 0,
@@ -151,7 +151,7 @@
             {
               "bpPath": "/Game/PrimalEarth/Dinos/Tusoteuthis/PrimalItemResource_SquidOil.PrimalItemResource_SquidOil",
               "maxQuantityPerCycle": 0,
-              "maxQuantityInTerminal": 0,
+              "maxQuantityInTerminal": 1000,
               "quantityPerDino": 1,
               "alternateSelectMode": 0,
               "alternateItemsChance": 0,
@@ -175,7 +175,7 @@
             {
               "bpPath": "/Game/PrimalEarth/Dinos/Tusoteuthis/PrimalItemResource_SquidOil.PrimalItemResource_SquidOil",
               "maxQuantityPerCycle": 0,
-              "maxQuantityInTerminal": 0,
+              "maxQuantityInTerminal": 1000,
               "quantityPerDino": 1,
               "alternateSelectMode": 0,
               "alternateItemsChance": 0,
@@ -193,13 +193,13 @@
       "chanceToProduce": 1,
       "produces": [
         {
-          "intervalSeconds": 360,
+          "intervalSeconds": 900,
           "itemSelectMode": 0,
           "items": [
             {
               "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_RareFlower.PrimalItemResource_RareFlower",
               "maxQuantityPerCycle": 0,
-              "maxQuantityInTerminal": 0,
+              "maxQuantityInTerminal": 1000,
               "quantityPerDino": 1,
               "alternateSelectMode": 0,
               "alternateItemsChance": 0,
@@ -211,7 +211,7 @@
             {
               "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_RareMushroom.PrimalItemResource_RareMushroom",
               "maxQuantityPerCycle": 0,
-              "maxQuantityInTerminal": 0,
+              "maxQuantityInTerminal": 1000,
               "quantityPerDino": 1,
               "alternateSelectMode": 0,
               "alternateItemsChance": 0,
@@ -229,13 +229,13 @@
       "chanceToProduce": 1,
       "produces": [
         {
-          "intervalSeconds": 360,
+          "intervalSeconds": 900,
           "itemSelectMode": 0,
           "items": [
             {
               "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Honey.PrimalItemConsumable_Honey",
               "maxQuantityPerCycle": 0,
-              "maxQuantityInTerminal": 0,
+              "maxQuantityInTerminal": 1000,
               "quantityPerDino": 1,
               "alternateSelectMode": 0,
               "alternateItemsChance": 0,
@@ -259,7 +259,7 @@
             {
               "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Oil.PrimalItemResource_Oil",
               "maxQuantityPerCycle": 0,
-              "maxQuantityInTerminal": 0,
+              "maxQuantityInTerminal": 1000,
               "quantityPerDino": 1,
               "alternateSelectMode": 0,
               "alternateItemsChance": 0,
@@ -271,7 +271,7 @@
             {
               "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Fertilizer_Compost.PrimalItemConsumable_Fertilizer_Compost",
               "maxQuantityPerCycle": 0,
-              "maxQuantityInTerminal": 0,
+              "maxQuantityInTerminal": 100,
               "quantityPerDino": 1,
               "alternateSelectMode": 0,
               "alternateItemsChance": 0,
@@ -302,7 +302,7 @@
             {
               "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Oil.PrimalItemResource_Oil",
               "maxQuantityPerCycle": 0,
-              "maxQuantityInTerminal": 0,
+              "maxQuantityInTerminal": 1000,
               "quantityPerDino": 1,
               "alternateSelectMode": 0,
               "alternateItemsChance": 0,
@@ -314,7 +314,7 @@
             {
               "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Fertilizer_Compost.PrimalItemConsumable_Fertilizer_Compost",
               "maxQuantityPerCycle": 0,
-              "maxQuantityInTerminal": 0,
+              "maxQuantityInTerminal": 100,
               "quantityPerDino": 1,
               "alternateSelectMode": 0,
               "alternateItemsChance": 0,
@@ -339,13 +339,13 @@
       "chanceToProduce": 1,
       "produces": [
         {
-          "intervalSeconds": 360,
+          "intervalSeconds": 900,
           "itemSelectMode": 0,
           "items": [
             {
               "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Sap.PrimalItemResource_Sap",
               "maxQuantityPerCycle": 0,
-              "maxQuantityInTerminal": 0,
+              "maxQuantityInTerminal": 1000,
               "quantityPerDino": 1,
               "alternateSelectMode": 0,
               "alternateItemsChance": 0,
@@ -369,7 +369,7 @@
             {
               "bpPath": "/Game/ASA/Dinos/Archelon/Dinos/Consumables/PrimalItemConsumable_Veggie_TurtleAlgae_ASA.PrimalItemConsumable_Veggie_TurtleAlgae_ASA",
               "maxQuantityPerCycle": 0,
-              "maxQuantityInTerminal": 0,
+              "maxQuantityInTerminal": 500,
               "quantityPerDino": 1,
               "alternateSelectMode": 0,
               "alternateItemsChance": 0,
@@ -393,7 +393,7 @@
             {
               "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Wool.PrimalItemResource_Wool",
               "maxQuantityPerCycle": 0,
-              "maxQuantityInTerminal": 0,
+              "maxQuantityInTerminal": 5000,
               "quantityPerDino": 1,
               "alternateSelectMode": 0,
               "alternateItemsChance": 0,
@@ -411,13 +411,13 @@
       "chanceToProduce": 1,
       "produces": [
         {
-          "intervalSeconds": 360,
+          "intervalSeconds": 900,
           "itemSelectMode": 0,
           "items": [
             {
               "bpPath": "/Game/ScorchedEarth/CoreBlueprints/Resources/PrimalItemResource_Silk.PrimalItemResource_Silk",
               "maxQuantityPerCycle": 0,
-              "maxQuantityInTerminal": 0,
+              "maxQuantityInTerminal": 5000,
               "quantityPerDino": 1,
               "alternateSelectMode": 0,
               "alternateItemsChance": 0,
@@ -435,7 +435,7 @@
       "chanceToProduce": 1,
       "produces": [
         {
-          "intervalSeconds": 360,
+          "intervalSeconds": 3600,
           "itemSelectMode": 0,
           "items": [
             {
@@ -450,7 +450,7 @@
                   "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_JellyVenom.PrimalItemConsumable_JellyVenom",
                   "quantityPerItem": 1,
                   "maxQuantityPerCycle": 0,
-                  "maxQuantityInTerminal": 0
+                  "maxQuantityInTerminal": 1000
                 }
               ],
               "comsumesSelectMode": 0,
@@ -472,7 +472,7 @@
             {
               "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_AnglerGel.PrimalItemResource_AnglerGel",
               "maxQuantityPerCycle": 0,
-              "maxQuantityInTerminal": 0,
+              "maxQuantityInTerminal": 5000,
               "quantityPerDino": 1,
               "alternateSelectMode": 0,
               "alternateItemsChance": 0.1,
@@ -481,7 +481,7 @@
                   "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Silicon.PrimalItemResource_Silicon",
                   "quantityPerItem": 1,
                   "maxQuantityPerCycle": 0,
-                  "maxQuantityInTerminal": 0
+                  "maxQuantityInTerminal": 1000
                 }
               ],
               "comsumesSelectMode": 0,
@@ -503,7 +503,7 @@
             {
               "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_AnglerGel.PrimalItemResource_AnglerGel",
               "maxQuantityPerCycle": 0,
-              "maxQuantityInTerminal": 0,
+              "maxQuantityInTerminal": 5000,
               "quantityPerDino": 1,
               "alternateSelectMode": 0,
               "alternateItemsChance": 0.1,
@@ -512,7 +512,7 @@
                   "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Silicon.PrimalItemResource_Silicon",
                   "quantityPerItem": 1,
                   "maxQuantityPerCycle": 0,
-                  "maxQuantityInTerminal": 0
+                  "maxQuantityInTerminal": 1000
                 }
               ],
               "comsumesSelectMode": 0,
