@@ -33,6 +33,44 @@
       ]
     },
     {
+      "dinoType": "/Game/PrimalEarth/Dinos/Hesperornis/Hesperornis_Character_BP.Hesperornis_Character_BP",
+      "chanceToProduce": 0.5,
+      "produces": [
+        {
+          "intervalSeconds": 3600,
+          "itemSelectMode": 0,
+          "items": [
+            {
+              "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Polymer_Organic.PrimalItemResource_Polymer_Organic",
+              "maxQuantityPerCycle": 0,
+              "maxQuantityInTerminal": 1000,
+              "quantityPerDino": 1,
+              "alternateSelectMode": 0,
+              "alternateItemsChance": 0.5,
+              "alternateItems": [
+                {
+                  "bpPath": "/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Hesperonis_Golden.PrimalItemConsumable_Egg_Hesperonis_Golden",
+                  "quantityPerItem": 1,
+                  "maxQuantityPerCycle": 0,
+                  "maxQuantityInTerminal": 100
+                }
+              ],
+              "comsumesSelectMode": 0,
+              "consumesItemsChance": 0,
+              "consumesItems": [
+                {
+                  "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_RawMeat_Fish.PrimalItemConsumable_RawMeat_Fish",
+                  "quantityPerItem": 5,
+                  "maxQuantityPerCycle": 0,
+                  "maxQuantityInTerminal": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "dinoType": "/Game/PrimalEarth/Dinos/Achatina/Achatina_Character_BP.Achatina_Character_BP",
       "chanceToProduce": 1,
       "produces": [
