@@ -617,6 +617,37 @@
       ]
     },
     {
+      "dinoType": "/Game/ASA/Dinos/ShoulderDragon/ShoulderDragon_Character_BP_Spring.ShoulderDragon_Character_BP_Spring",
+      "chanceToProduce": 1,
+      "produces": [
+        {
+          "intervalSeconds": 360,
+          "itemSelectMode": 0,
+          "items": [
+            {
+              "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_RareFlower.PrimalItemResource_RareFlower",
+              "maxQuantityPerCycle": 0,
+              "maxQuantityInTerminal": 5000,
+              "quantityPerDino": 1,
+              "alternateSelectMode": 0,
+              "alternateItemsChance": 0.1,
+              "alternateItems": [
+                {
+                  "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_RareFlower.PrimalItemResource_RareFlower",
+                  "quantityPerItem": 1,
+                  "maxQuantityPerCycle": 0,
+                  "maxQuantityInTerminal": 5000
+                }
+              ],
+              "comsumesSelectMode": 0,
+              "consumesItemsChance": 0,
+              "consumesItems": []
+            }
+          ]
+        }
+      ]
+    },
+    {
       "dinoType": "/Game/PrimalEarth/Dinos/Iguanodon/Iguanodon_Character_BP.Iguanodon_Character_BP",
       "chanceToProduce": 1,
       "produces": [
@@ -678,3 +709,4 @@
     }
   ]
 }
+
