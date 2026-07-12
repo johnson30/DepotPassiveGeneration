@@ -33,9 +33,6 @@
       ]
     },
     {
-  "version": 2,
-  "production": [
-    {
       "dinoType": "/Game/Packs/TidesOfFortune/Dinos/Paleoctopus/Palaeoctopus_Character_BP.Palaeoctopus_Character_BP",
       "chanceToProduce": 1,
       "produces": [
