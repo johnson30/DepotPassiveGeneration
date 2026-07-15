@@ -49,7 +49,7 @@
               "alternateItemsChance": 0.1,
               "alternateItems": [
                 {
-                  "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_BlackPearl.PrimalItemResource_BlackPearl",
+                  "bpPath": "/Game/Packs/TidesOfFortune/Dinos/Paleoctopus/PrimalItemResource_PalaeoctopusInk.PrimalItemResource_PalaeoctopusInk",
                   "quantityPerItem": 1,
                   "maxQuantityPerCycle": 0,
                   "maxQuantityInTerminal": 1000
@@ -475,6 +475,30 @@
         }
       ]
     },
+	{
+      "dinoType": "/Game/Genesis/Dinos/BiomeVariants/Ocean_Archelon/Ocean_Archelon_Character_BP.Ocean_Archelon_Character_BP",
+      "chanceToProduce": 1,
+      "produces": [
+        {
+          "intervalSeconds": 3600,
+          "itemSelectMode": 0,
+          "items": [
+            {
+              "bpPath": "/Game/ASA/Dinos/Archelon/Dinos/Consumables/PrimalItemConsumable_Veggie_TurtleAlgae_ASA.PrimalItemConsumable_Veggie_TurtleAlgae_ASA",
+              "maxQuantityPerCycle": 0,
+              "maxQuantityInTerminal": 500,
+              "quantityPerDino": 1,
+              "alternateSelectMode": 0,
+              "alternateItemsChance": 0,
+              "alternateItems": [],
+              "comsumesSelectMode": 0,
+              "consumesItemsChance": 0,
+              "consumesItems": []
+            }
+          ]
+        }
+      ]
+    },
     {
       "dinoType": "/Game/PrimalEarth/Dinos/Sheep/Sheep_Character_BP.Sheep_Character_BP",
       "chanceToProduce": 1,
@@ -500,7 +524,7 @@
       ]
     },
     {
-      "dinoType": "Blueprint'/Game/ScorchedEarth/Dinos/Moth/Moth_Character_BP.Moth_Character_BP",
+      "dinoType": "/Game/ScorchedEarth/Dinos/Moth/Moth_Character_BP.Moth_Character_BP",
       "chanceToProduce": 1,
       "produces": [
         {
@@ -670,6 +694,78 @@
                   "maxQuantityInTerminal": 5000
                 }
               ],
+              "comsumesSelectMode": 0,
+              "consumesItemsChance": 0,
+              "consumesItems": []
+            }
+          ]
+        }
+      ]
+    },
+	{
+      "dinoType": "/Game/PrimalEarth/Dinos/Spider-Small/SpiderS_Character_BP.SpiderS_Character_BP",
+      "chanceToProduce": 1,
+      "produces": [
+        {
+          "intervalSeconds": 900,
+          "itemSelectMode": 0,
+          "items": [
+            {
+              "bpPath": "/Game/ScorchedEarth/CoreBlueprints/Resources/PrimalItemResource_Silk.PrimalItemResource_Silk",
+              "maxQuantityPerCycle": 0,
+              "maxQuantityInTerminal": 5000,
+              "quantityPerDino": 1,
+              "alternateSelectMode": 0,
+              "alternateItemsChance": 0,
+              "alternateItems": [],
+              "comsumesSelectMode": 0,
+              "consumesItemsChance": 0,
+              "consumesItems": []
+            }
+          ]
+        }
+      ]
+    },
+	{
+      "dinoType": "/Game/PrimalEarth/Dinos/Spider-Small/SpiderS_Character_BP_Aberrant.SpiderS_Character_BP_Aberrant",
+      "chanceToProduce": 1,
+      "produces": [
+        {
+          "intervalSeconds": 900,
+          "itemSelectMode": 0,
+          "items": [
+            {
+              "bpPath": "/Game/ScorchedEarth/CoreBlueprints/Resources/PrimalItemResource_Silk.PrimalItemResource_Silk",
+              "maxQuantityPerCycle": 0,
+              "maxQuantityInTerminal": 5000,
+              "quantityPerDino": 1,
+              "alternateSelectMode": 0,
+              "alternateItemsChance": 0,
+              "alternateItems": [],
+              "comsumesSelectMode": 0,
+              "consumesItemsChance": 0,
+              "consumesItems": []
+            }
+          ]
+        }
+      ]
+    },
+	{
+      "dinoType": "/Game/ASA/Dinos/Cat/Cat_Character_BP.Cat_Character_BP",
+      "chanceToProduce": 1,
+      "produces": [
+        {
+          "intervalSeconds": 900,
+          "itemSelectMode": 0,
+          "items": [
+            {
+              "bpPath": "/Game/ASA/Dinos/Cat/Furball/PrimalItemResource_Furball.PrimalItemResource_Furball",
+              "maxQuantityPerCycle": 0,
+              "maxQuantityInTerminal": 1000,
+              "quantityPerDino": 1,
+              "alternateSelectMode": 0,
+              "alternateItemsChance": 0,
+              "alternateItems": [],
               "comsumesSelectMode": 0,
               "consumesItemsChance": 0,
               "consumesItems": []
