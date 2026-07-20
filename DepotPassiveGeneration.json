@@ -37,7 +37,7 @@
       "chanceToProduce": 1,
       "produces": [
         {
-          "intervalSeconds": 900,
+          "intervalSeconds": 3600,
           "itemSelectMode": 0,
           "items": [
             {
@@ -46,7 +46,7 @@
               "maxQuantityInTerminal": 1000,
               "quantityPerDino": 1,
               "alternateSelectMode": 0,
-              "alternateItemsChance": 0.1,
+              "alternateItemsChance": 0.2,
               "alternateItems": [
                 {
                   "bpPath": "/Game/Packs/TidesOfFortune/Dinos/Paleoctopus/PrimalItemResource_PalaeoctopusInk.PrimalItemResource_PalaeoctopusInk",
