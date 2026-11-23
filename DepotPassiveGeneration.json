@@ -342,7 +342,7 @@
       ]
     },
 	{
-      "dinoType": "Blueprint'Game/SDinoVariants/S-Bee/S-QueenBee_Character_BP.S-QueenBee_Character_BP",
+      "dinoType": "Blueprint'/Game/SDinoVariants/S-Bee/S-QueenBee_Character_BP.S-QueenBee_Character_BP",
       "chanceToProduce": 1,
       "produces": [
         {
