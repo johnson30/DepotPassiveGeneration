@@ -341,6 +341,30 @@
         }
       ]
     },
+	{
+      "dinoType": "Blueprint'Game/SDinoVariants/S-Bee/S-QueenBee_Character_BP.S-QueenBee_Character_BP",
+      "chanceToProduce": 1,
+      "produces": [
+        {
+          "intervalSeconds": 900,
+          "itemSelectMode": 0,
+          "items": [
+            {
+              "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Honey.PrimalItemConsumable_Honey",
+              "maxQuantityPerCycle": 0,
+              "maxQuantityInTerminal": 1000,
+              "quantityPerDino": 1,
+              "alternateSelectMode": 0,
+              "alternateItemsChance": 0,
+              "alternateItems": [],
+              "comsumesSelectMode": 0,
+              "consumesItemsChance": 0,
+              "consumesItems": []
+            }
+          ]
+        }
+      ]
+    },
     {
       "dinoType": "/Game/ASA/Dinos/Bison/Bison_Character_BP.Bison_Character_BP",
       "chanceToProduce": 1,
